@@ -1,4 +1,4 @@
-from .nav import Nav
+from .nav import SupportDepartments
 
 async def setup(bot):
-    await bot.add_cog(Nav(bot))
+    await bot.add_cog(SupportDepartments(bot))
