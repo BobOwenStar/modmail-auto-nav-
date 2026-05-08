@@ -1,6 +1,9 @@
 import discord
 from discord.ext import commands
 
+async def setup(bot):
+    await bot.add_cog(SupportDepartments(bot))
+
 # -----------------------------
 # NAVIGATION MESSAGE (ON OPEN)
 # -----------------------------
